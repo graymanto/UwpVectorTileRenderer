@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="VectorTilesRendererExample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VectorTilesRendererExample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vtr="using:VectorTilesRenderer"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <vtr:MapControl x:Name="MapControl"></vtr:MapControl>
+    </Grid>
+</Page>
